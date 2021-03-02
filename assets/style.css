@@ -1,0 +1,54 @@
+body{
+    font-family: 'Karma', serif;
+    color:white;
+    background-color: #e8e7e5;
+}
+
+/* Header */
+
+.header{
+    height: 250px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./images/DSC09190.jpeg);
+    background-position-y: -1552px;
+    background-position-x: -1980px;
+}
+
+.jared{
+    margin-top: 225px ;
+    margin-left: 15px;
+    font-size: 90px;
+}
+
+.nav{
+    margin-top: 200px;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+}
+
+/* About Me */
+
+.top-section{
+    width: 690px;
+    height: 154px;
+    background-color: #b4bc44;
+}
+
+.about-me{
+    width:111px;
+    height: 25px;
+    border-right: 6px solid;
+    border-color: #714c87;
+    font-size: 75px;
+}
+
