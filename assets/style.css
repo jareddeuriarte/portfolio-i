@@ -44,12 +44,18 @@ a{
     justify-content: center;
     height: 245px;
     margin-top: 15px;
-    background-color: #b4bc44;
+    background-color: #bed178d2;
 }
 
 #about-me{
     font-size: 59px;
-    border: blue 6px solid;
+    border-right: #8884a2 solid 6px;
+    padding-right: 10px;
+}
+
+#contents{
+    padding-left: 20px;
+    width: 500px;
 }
 
 
