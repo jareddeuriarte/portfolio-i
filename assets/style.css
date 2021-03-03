@@ -1,11 +1,8 @@
 body{
     font-family: 'Karma', serif;
     color:white;
-    background-color: darkslategray;
+    background-color: #e3dec8;
 }
-
-
-
 
 .header{
     height: 289px;
@@ -14,8 +11,13 @@ body{
     align-items: flex-end;
     justify-content: space-between;
     background-image: url(./images/DSC09190.jpeg);
-    background-position-y: -1552px;
-    background-position-x: -1980px;
+    background-position-y: -1640px;
+    background-position-x: -3905px;
+}
+
+h1{
+    font-size: 375%;
+    margin: 0;
 }
 
 ul{
@@ -27,7 +29,6 @@ li{
     margin: 5%;
     width: 10%;
 }
-
 
 .main{
     display:flex;
