@@ -90,4 +90,21 @@ img{
     margin: 5px;
 }
 
+/* Contact Me Section */
 
+.bottom-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #9ca75eb9;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#contact{
+    font-size: 59px;
+    border-right: #8884a2 solid 6px;
+    padding-right: 10px;
+
+#links{
+}
