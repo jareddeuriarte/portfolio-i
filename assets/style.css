@@ -5,113 +5,28 @@ body{
 }
 
 
-/* Header */
+
 
 .header{
     height: 289px;
     margin: 0;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     background-image: url(./images/DSC09190.jpeg);
     background-position-y: -1552px;
     background-position-x: -1980px;
 }
 
-.jared{
-    margin-top: 225px ;
-    margin-left: 15px;
-    font-size: 90px;
-}
-
-.nav{
-    margin-top: 242px;
-    margin-right: 15px;
-    font-size: 29px;
-
-}
-
-a{
-    color: white;
-    text-decoration: none;
-    padding: 11px;
-}
-
-
-
-
-/* About Me Section */
-
-.top-section{
+ul{
     display: flex;
-    height: 30%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #9ca75eb9;
+    flex-direction: row;
 }
 
-#about-me{
-    font-size: 59px;
-    border-right: #8884a2 solid 6px;
-    padding-right: 10px;
+li{
+    margin: 5%;
+    width: 10%;
 }
-
-#contents{
-    padding-left: 20px;
-    width: 500px;
-}
-
-/* Work Section */
-
-.middle-section{
-    display: flex;
-    height: 30%;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #9ca75eb9;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-
-#work{
-    font-size: 59px;
-    border-right: #8884a2 solid 6px;
-    padding-right: 10px;
-}  
-
-.images{
-}
-
-
-img{
-    flex-wrap: wrap;
-    margin: 5px;
-}
-
-/* Contact Me Section */
-
-.bottom-section{
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #9ca75eb9;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-#contact{
-    font-size: 59px;
-    border-right: #8884a2 solid 6px;
-    padding-right: 10px;
-
-#links{
-}
-
 
 
 .main{
@@ -119,10 +34,9 @@ img{
     flex-direction: row;
 }
 
-.container-left{
-
-}
 
 .container-right{
-   
+    display:flex;
+    flex-direction: column;
+    width: 45%;
 }
