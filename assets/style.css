@@ -65,7 +65,7 @@ a{
 .middle-section{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #9ca75eb9;
     margin-left: 15px;
     margin-right: 15px;
@@ -77,16 +77,14 @@ a{
     border-right: #8884a2 solid 6px;
     padding-right: 10px;
 }  
-    
-    
-#samples{
-    padding-left: 20px;
-    width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
+
+.images{
+    display:flex;
 }
 
+
 img{
+    flex-wrap: wrap;
     margin: 5px;
 }
 
