@@ -4,6 +4,7 @@ body{
     background-color: #e8e7e5;
 }
 
+
 /* Header */
 
 .header{
@@ -79,7 +80,6 @@ a{
 }  
 
 .images{
-    display:flex;
 }
 
 
@@ -105,4 +105,12 @@ img{
     padding-right: 10px;
 
 #links{
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:375px) {
+    
 }
