@@ -7,7 +7,7 @@ body{
 /* Header */
 
 .header{
-    height: 250px;
+    height: 289px;
     margin: 0;
     display: flex;
     align-items: center;
@@ -24,9 +24,9 @@ body{
 }
 
 .nav{
-    margin-top: 200px;
+    margin-top: 242px;
     margin-right: 15px;
-    font-size: 25px;
+    font-size: 29px;
 
 }
 
@@ -36,19 +36,30 @@ a{
     padding: 11px;
 }
 
-/* About Me */
+/* About Me Section */
 
 .top-section{
-    width: 690px;
-    height: 154px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+    margin-top: 15px;
     background-color: #b4bc44;
 }
 
-.about-me{
-    width:111px;
-    height: 25px;
-    border-right: 6px solid;
-    border-color: #714c87;
-    font-size: 75px;
+#about-me{
+    font-size: 59px;
+    border: blue 6px solid;
 }
+
+
+
+
+
+
+
+
+
+
+
 
