@@ -44,7 +44,9 @@ a{
     justify-content: center;
     height: 245px;
     margin-top: 15px;
-    background-color: #bed178d2;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #9ca75eb9;
 }
 
 #about-me{
@@ -58,14 +60,34 @@ a{
     width: 500px;
 }
 
+/* Work Section */
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9ca75eb9;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 
+#work{
+    font-size: 59px;
+    border-right: #8884a2 solid 6px;
+    padding-right: 10px;
+}  
+    
+    
+#samples{
+    padding-left: 20px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
-
-
-
-
-
+img{
+    margin: 5px;
+}
 
 
