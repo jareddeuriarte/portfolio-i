@@ -33,11 +33,32 @@ li{
 .main{
     display:flex;
     flex-direction: row;
+    justify-content: center;
 }
-
 
 .container-right{
     display:flex;
     flex-direction: column;
     width: 45%;
+}
+
+
+.work-samples{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img{
+    margin: 5%;
+    max-width:100%;
+    height:auto;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
