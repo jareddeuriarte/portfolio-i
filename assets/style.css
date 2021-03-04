@@ -4,6 +4,16 @@ body{
     background-color: #e3dec8;
 }
 
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav-links{
+    margin: 0 1% 0 1%;
+}
+
 .header{
     height: 289px;
     margin: 0;
@@ -21,8 +31,11 @@ h1{
 }
 
 .nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
     font-size: 148%;
-    margin-right: 46px;
+    min-width: 358px;
 }
 
 .main{
@@ -37,37 +50,44 @@ h1{
     font-size: 250%;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    justify-content: space-between;
     width: 100%;
-    max-width: 226px;
+    max-width: 232px;
+    min-height: 426px;
     text-align: right;
 }
 
 #about-me{
     border-right: 6px solid #7b6886;
+    padding: 10px;
 }
 
 #work{
     border-right: 6px solid #7b6886;
+    padding: 10px;
 
 }
 
 #contact{
     border-right: 6px solid #7b6886;
+    padding: 10px;
 
 }
 
 .container-right{
-    display:flex;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     max-width: 815px;
+    min-height: 426px;
+    margin-left: 23px;
+    font-size: 116%;
 }
 
 .about-me-contents{
-    margin-bottom: 40px;
+    text-align: justify;
 }
-
 
 
 .work-samples{
@@ -82,90 +102,5 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 40px;
-}
-
-
-
-
-/* TEST TEST TEST */ 
-
-
-.section-wrapper1{
-    display:flex;
-    justify-content: center;
-    padding: 10px;
-    margin: 15px;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.about-me-section-test{
-    display: flex;
-    flex-direction: row;    
-}
-
-#about-me-test{
-    font-size: 325%;
-    border-right: 6px solid #7b6886;
-
-}
-
-
-#about-me-contents-test{
-    margin-left: 15px;
-}
-
-
-.section-wrapper2{
-    display:flex;
-    justify-content: center;
-    padding: 10px;
-    margin: 15px;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.work-section-test{
-    display: flex;
-    flex-direction: row;    
-}
-
-#work-test{
-    font-size: 325%;
-    border-right: 6px solid #7b6886;
-}
-
-#work-samples-test{
-    display:flex;
-    flex-wrap: wrap;
-}
-
-
-.main-test{
-    display: ;
-}
-
-.section-wrapper3{
-    display:flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 15px;
-}
-
-.contact-section-test{
-    display: flex;
-    flex-direction: row;    
-}
-
-#contact-test{
-    font-size: 325%;
-    border-right: 6px solid #7b6886;
-}
-
-#contact-info-test{
-    display:flex;
-    flex-wrap: wrap;
+    font-size: 145%;
 }
