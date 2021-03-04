@@ -132,22 +132,34 @@ main{
 .section-wrapper{
     display:flex;
     flex-direction: row;
+    align-items: center;
 }
 
 #work-samples-test{
     display:flex;
-    flex-wrap: wrap;
 }
+
+.worksamples{
+    flex-grow: 1
+}
+
+
 
 img{
     width: 50%;
 }
 
-#first-img{
-    width: 100%;
+
+h2{
+    font-size: 290%;
+    border-right: 6px solid #7b6886;} 
 }
 
 
+
+#contact-info-test{
+    flex-direction: row;
+}
 
 @media only screen and (max-width: 600px){
     .section-wrapper{
