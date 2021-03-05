@@ -43,23 +43,18 @@ h1{
     min-width: 358px;
 }
 
-
-/* SECOND ATTEMPT */
-
 main{
     width: 75%;
     margin: auto;
 }
 
 
-
-
-/*
-h2{
-    font-size: 290%;
-    border-right: 6px solid #7b6886; 
+#me{
+    background-image: url(./images/IMG_6881\ copy.jpg);
+    flex: 25%;
+    background-size: 136px;
 }
-*/ 
+
 
 .section-wrapper{
     display:flex;
@@ -71,6 +66,7 @@ h2{
 aside {
     flex: 0 0 25%;
     font-size: 210%;
+    color: #6f5b79;
 }
 
 
@@ -78,17 +74,22 @@ aside {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%
 }
 
 .sample-wrapper-1{
-    display: flex;
     flex: 0 0 100%;
 }
 
-.sample-wrapper-2-3{
-    display: flex;
+.sample-wrapper-2{
     flex: 0 0 50%;
 }
+
+.sample-wrapper-3{
+    flex: 0 0 50%;
+}
+
+
 
 #sample1{
     background-image: url(./images/DSC09106.jpg);
@@ -104,8 +105,14 @@ aside {
 }
 
 #contact-info{
+    display: inline-flex;
     font-size: 200%;
 }
+
+#contact-info > div, a{
+    margin-right: 10px;
+}
+
 
 
 /* Media Query */
