@@ -61,6 +61,8 @@ main{
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 aside {
@@ -93,15 +95,21 @@ aside {
 
 #sample1{
     background-image: url(./images/DSC09106.jpg);
+    background-position-y: -1080px;
+    background-position-x: -3332px;
 }
 
 #sample2{
     background-image: url(./images/DSC09135.jpg);
+    background-position-y: -1162px;
+    background-position-x: -3757px;
 
 }
 
 #sample3{
-    background-image: url(./images/DSC09140.jpg);
+    background-image: url(./images/DSC09117.jpg);
+    background-position-y: -1795px;
+    background-position-x: -3791px;
 }
 
 #contact-info{
