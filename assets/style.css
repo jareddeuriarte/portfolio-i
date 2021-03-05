@@ -43,127 +43,75 @@ h1{
     min-width: 358px;
 }
 
-.main{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top:2%;
-}
-
-.container-left {
-    font-size: 250%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 232px;
-    min-height: 426px;
-    text-align: right;
-}
-
-#about-me{
-    border-right: 6px solid #7b6886;
-    padding: 10px;
-}
-
-#work{
-    border-right: 6px solid #7b6886;
-    padding: 10px;
-
-}
-
-#contact{
-    border-right: 6px solid #7b6886;
-    padding: 10px;
-
-}
-
-.container-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 815px;
-    min-height: 426px;
-    margin-left: 23px;
-    font-size: 116%;
-}
-
-.about-me-contents{
-    text-align: justify;
-}
-
-
-.work-samples{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.contact-info{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-size: 145%;
-}
-
-
-
-.test{
-    width: 204px;
-    height: 100px;
-    border: 1px solid #000;
-    background-color: cornsilk;
-    color: black;
-}
-
-
 
 /* SECOND ATTEMPT */
 
 main{
-    width: 81%;
+    width: 75%;
     margin: auto;
 }
+
+
+
+
+/*
+h2{
+    font-size: 290%;
+    border-right: 6px solid #7b6886; 
+}
+*/ 
 
 .section-wrapper{
     display:flex;
     flex-direction: row;
+    justify-content: left;
     align-items: center;
 }
 
-#work-samples-test{
+aside {
+    flex: 0 0 25%;
+    font-size: 210%;
+}
+
+
+#work-samples{
     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.worksamples{
-    flex-grow: 1
+.sample-wrapper-1{
+    display: flex;
+    flex: 0 0 100%;
+}
+
+.sample-wrapper-2-3{
+    display: flex;
+    flex: 0 0 50%;
+}
+
+#sample1{
+    background-image: url(./images/DSC09106.jpg);
+}
+
+#sample2{
+    background-image: url(./images/DSC09135.jpg);
+
+}
+
+#sample3{
+    background-image: url(./images/DSC09140.jpg);
+}
+
+#contact-info{
+    font-size: 200%;
 }
 
 
-
-img{
-    width: 50%;
-}
-
-
-h2{
-    font-size: 290%;
-    border-right: 6px solid #7b6886;} 
-}
-
-
-
-#contact-info-test{
-    flex-direction: row;
-}
+/* Media Query */
 
 @media only screen and (max-width: 600px){
     .section-wrapper{
         flex-direction: column;
     }
 }
-   
